@@ -1,0 +1,159 @@
+/*for big tablets*/
+@media only screen and (max-width:1200px){
+    .row{
+        padding: 0.2%;
+    }
+    section{
+        padding: 20px;
+    }
+    .btn-app {
+        height: 40px;
+    }
+}
+
+/*for small tablets to big tablets 768 to 1023px*/
+@media only screen and (max-width:1023px){
+    .row{
+        width: 80%;
+    }
+    .btn-app{
+        height: 40px;
+        width: auto;
+    }
+    .work-steps{
+        margin-bottom: 40px;
+    }
+    .steps-box:last-child {
+        margin-top: 0px;
+    }
+    .section-meals {
+        height: 700px;
+    }
+    .plan-price{
+        font-size: 250%;
+    }
+    .plan-box ul li {
+        font-size: 70%;
+    }
+    .footer-nav {
+        font-size: 90%;
+    }
+
+}
+
+/*for phones to small tablets 481 to 767px*/
+@media only screen and (max-width:767px){
+    .box p {
+        font-size: 70%;
+    }
+    h2{
+        font-size: 160%;
+    }
+    p{
+        font-size: 90%;
+    }
+    blockquote{
+        font-size: 85%;
+        display: flex;
+    }
+    .btn-full:link, .btn-full:visited, input[type=submit] {
+        margin-right: 10px;
+    }
+    .btn-app {
+        height: 35px;
+        width: auto;
+        margin-right: 20px;
+    }
+    .meal-photo img {
+        width: 100%;
+        height: 200px;
+        transform: scale(1.15);
+        opacity: 0.7;
+    }
+    h1{
+        font-size: 160%;
+    }
+    .icon-big {
+        font-size: 300%;
+    }
+    .contact-form {
+        font-size: 80%;
+    }
+    footer {
+        font-size: 50%;
+        padding: 20px;
+    }
+    .col{
+        width: 100%;
+    }
+    .section-features {
+        height: 1000px;
+    }
+    .section-meals {
+        height: 400px;
+    }
+    .section-steps {
+        height: 800px;
+    }
+    .section-cities {
+        height: 2200px;
+    }
+    .section-testimonial {
+        height: 800px;
+    }
+    .section-plans{
+        height: 1250px;
+    }
+    .box{
+        margin-bottom: 4px;
+    }
+    .app-screen{
+        margin: 20px;
+    }
+    .main-nav{
+        display: none;
+    }
+    .section-form{
+        height: 750px;
+    }
+}
+
+/*for small phones 0 to 480px*/
+@media only screen and (max-width:480px){
+    .btn-app {
+        margin: 10px;
+    }
+    .section-cities {
+        height: 1600px;
+    }
+    .section-plans{
+        height: 1350px;
+    }
+    .section-meals {
+        height: 200px;
+    }
+    .section-steps {
+        height: 1000px;
+    }
+    .section-testimonial {
+        height: 1100px;
+    }
+    .section-form{
+        height: 850px;
+    }
+    .main-nav{
+        display: none;
+    }
+    .btn{
+        margin: 5px;
+    }
+    .logo {
+        height: 50px;
+        width: auto;
+    }
+    .meal-photo img {
+        height: 100px;
+        transform: scale(1.15);
+        opacity: 0.7;
+    }
+}
